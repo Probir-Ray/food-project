@@ -13,6 +13,10 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  font-size: 40px;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -34,7 +38,7 @@ h1 {
   margin-right: 2.5%;
 }
 section {
-  padding: 35px 35px;
+  padding: 60px 70px;
 }
 
 /* Header area style */
@@ -80,8 +84,27 @@ a.btn {
   margin-top: 15px;
 }
 .hero-pic {
-  width: 60%;
+  width: 100%;
 }
 .hero-text {
   padding: 3.5em ​0 0 1em;
+}
+
+/* About us area style */
+.about-us-area {
+  background: url(images/about-bg.jpg) no-repeat center / cover;
+}
+.about-pic {
+  width: 70%;
+  height: 510px;
+  object-fit: cover;
+  padding-left: 4em;
+}
+.about-text {
+  margin-top: 1.5em;
+}
+.about-text p {
+  font-size: 110%;
+  line-height: 150%;
+  padding-right: 10%;
 }
