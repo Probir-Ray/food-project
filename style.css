@@ -153,3 +153,19 @@ a.btn {
 .single-item p {
   margin-top: 10px;
 }
+
+/* Footer section style */
+footer {
+  background-color: #0a0c16;
+  padding: 4em 0;
+}
+
+footer h2 {
+  color: white;
+}
+footer h2 span {
+  color: #f535aa;
+}
+footer p {
+  color: #fff;
+}
