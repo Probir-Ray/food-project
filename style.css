@@ -1,0 +1,87 @@
+/* Major Css Style */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.center {
+  text-align: center;
+}
+.flex {
+  display: flex;
+}
+.orange {
+  color: orange;
+}
+.neon-pink {
+  color: #f535aa;
+}
+.half-width {
+  width: 45%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+section {
+  padding: 35px 35px;
+}
+
+/* Header area style */
+.header {
+  height: 50px;
+}
+nav {
+  width: 90%;
+  margin: 0 auto;
+}
+ul.mainmenu {
+  background-color: #f535aa;
+  list-style-type: none;
+}
+ul.mainmenu li {
+  display: inline-block;
+}
+ul.mainmenu li a {
+  display: inline-block;
+  color: white;
+  padding: 17px 26px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+/* Hero Area Css Style  */
+.hero-text h1 {
+  font-weight: 700;
+}
+.hero-text p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 150%;
+}
+a.btn {
+  display: inline-block;
+  padding: 18px 33px;
+  border-radius: 50px;
+  color: white;
+  background: linear-gradient(to right, #f535aa, #ff7b68, #ffa754);
+  margin-top: 15px;
+}
+.hero-pic {
+  width: 60%;
+}
+.hero-text {
+  padding: 3.5em ​0 0 1em;
+}
