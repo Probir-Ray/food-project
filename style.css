@@ -8,13 +8,18 @@ a {
   text-decoration: none;
   color: #000;
 }
-
+p {
+  line-height: 150%;
+}
 h1 {
   font-size: 50px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 38px;
+}
+h3 {
+  font-size: 26px;
 }
 
 .uppercase {
@@ -37,8 +42,16 @@ h2 {
   margin-left: 2.5%;
   margin-right: 2.5%;
 }
+.one-third {
+  width: 29.33%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
 section {
-  padding: 60px 70px;
+  padding: 60px 50px;
+}
+.bold {
+  font-weight: 700;
 }
 
 /* Header area style */
@@ -93,6 +106,7 @@ a.btn {
 /* About us area style */
 .about-us-area {
   background: url(images/about-bg.jpg) no-repeat center / cover;
+  padding-bottom: 0px;
 }
 .about-pic {
   width: 70%;
@@ -107,4 +121,35 @@ a.btn {
   font-size: 110%;
   line-height: 150%;
   padding-right: 10%;
+}
+
+/* Style fo Food item section */
+.food-item-area {
+  padding: 80px initial;
+}
+.food-item-text p {
+  padding: 0 20%;
+  line-height: 150%;
+}
+.item-list {
+  margin-top: 2.5em;
+}
+.single-item {
+  padding: 18px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  box-shadow: 0px 1px 13px -2px gray;
+}
+.single-item img {
+  border-radius: 15px;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.single-item h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.single-item p {
+  margin-top: 10px;
 }
